@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+body{
+    background-color: #12122A;
+    font-family: 'Poppins', sans-serif;
+    color: #E1E0E7;
+    font-size: 18px;
+    font-weight: 400;
+}
+nav .navbar-brand{
+    font-weight: bold;
+    font-size: 27px;
+}
+nav .nav-link{
+    color:#fff;
+    font-weight: medium;
+}
+h1{
+    font-weight: 600;
+    font-size: 45px;
+    color: #fff;
+}
+h2{
+    font-weight: 600;
+    font-size: 30px;
+    color: #fff;
+}
+h3{
+    font-weight: 600;
+    font-size: 25px;
+    color: #868490;
+}
+.title-section{
+    font-size: 32px;
+}
+.profile{
+    max-height: 523px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.arrow-slider{
+    /* color: #071a32; */
+    color: white;
+    font-size: 45px;
+    border: none !important;
+    background-color: rgba (0, 0, 0, 0);
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+}
+/* Responsive Breakpoin*/
+/* Extra Large & Large */
+@media (max-width:1399px){
+
+}
+/* Medium */
+@media (max-width:991px) {
+    body{
+        font-size: 16px;
+    }
+    nav .navbar-brand{
+        font-size: 24px;
+    }
+    .profile{
+        height: 420px;
+    }
+    h1{
+        font-size: 34px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 24px;
+    }
+    .title-section{
+        font-size: 28px;
+    }
+}
+/* Small */
+@media (max-width:767px) {
+    .profile{
+        height: 350px;
+    }
+}
+/* Extra Small */
+@media (max-width:576px) {
+    .profile{
+        height: 320px;
+    }
+}
